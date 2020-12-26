@@ -1,10 +1,11 @@
 ------------------------------------------------------------------------------------------------------------------
+-- Name		: Rajarajeswari Angia Krishnan
 -- Create Date	: 15:15:21 11/05/2019 
 -- Module Name	: testtask - Behavioral
 -- Project Name	: Design of generic FIFO using RAM in VHDL
 -- Description	: This module will generate array of RAM to store the data in FIFO.
---				  The given RAM has predefined data width of 8 bit and depth of 32 (32 different address possible)
---				  The RAM array is generated based on the number of datas written to the FIFO and the width of data.
+--		  The given RAM has predefined data width of 8 bit and depth of 32 (32 different address possible)
+--		  The RAM array is generated based on the number of datas written to the FIFO and the width of data.
 ---------------------------------------------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
