@@ -6,6 +6,8 @@ The given ram has a fixed data width of 8 bit (din, dout are defined as 7 downto
 (din_addr, dout_addr are defined as 4 downto 0 -> 32 different addresses possible).
 The interface of the FIFO is depicted below.
 
+![](fifo.jpg)
+
 All ports, that are in bold font, as well as the depth of the FIFO are configurable. 
 The bit width of the data input and output shall be a multiple of 8, the depth of the FIFO shall be a multiple of 32.
 For the almost full/empty flags (afull, aempty) it shall be configurable, 
